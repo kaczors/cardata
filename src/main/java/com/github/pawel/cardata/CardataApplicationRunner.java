@@ -46,7 +46,7 @@ class CardataApplicationRunner implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
 
-        PrintWriter printWriter = new PrintWriter(new FileOutputStream("c:/development/other/data.json"));
+        PrintWriter printWriter = new PrintWriter(new FileOutputStream("c:/development/other/data03.json"));
 
         getBrandUrls()
                 .parallel()
